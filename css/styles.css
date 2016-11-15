@@ -1,0 +1,33 @@
+body{
+	background-color: #8cf9ff;
+	text-align: center;
+}
+
+#buttonPic{
+	height: 100px;
+	width: 120px;
+	display: block;
+	margin-left: 45%;
+	border-radius: 10px;
+	background-color: #ff8cf1;
+	border: none;
+	box-shadow: 0 10px #ba62af;
+	font-size: 13px;
+	text-align: center;
+	color: #f7eaf5;
+}
+
+#numbChange{
+	display: inline-block;
+	width: 200px;
+	padding: 8px;
+	color: #fff;
+	border: 1px solid #fff;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+}
+
+#yourName{
+	font-size: 50px;
+}
