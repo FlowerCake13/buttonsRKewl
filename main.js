@@ -13,3 +13,4 @@ var pId = document.getElementById('yourName');
 function picChange() {
 	var picer = ["pic/hearts.jpg", "pic/watermelon.jpg"];
 		document.getElementById("picCount").innerHTML = emojiS [Math.floor(Math.random()*emojiS.length)];
+}
