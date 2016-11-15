@@ -11,11 +11,5 @@ var pId = document.getElementById('yourName');
 }
 
 function picChange() {
-	var picHold = document.getElementById('picCount');
-	if (picHold.src == "pic/heart.jpg") {
-		console.log("waterMELOON!" , picHold.src);
-		picHold.src = "pic/tiedie.jpg";
-	}else if (picHold.src == "pic/heart.jpg"){
-		picHold.src = "pic/heart.jpg";
-	}
-}
+	var picer = ["pic/hearts.jpg", "pic/watermelon.jpg"];
+		document.getElementById("picCount").innerHTML = emojiS [Math.floor(Math.random()*emojiS.length)];
