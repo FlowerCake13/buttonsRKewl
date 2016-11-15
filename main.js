@@ -11,6 +11,6 @@ var pId = document.getElementById('yourName');
 }
 
 function picChange() {
-	var picer = ["pic/hearts.jpg", "pic/watermelon.jpg"];
+	var picer = [pic/hearts.jpg, pic/watermelon.jpg];
 		document.getElementById("picCount").innerHTML = picer [Math.floor(Math.random()*picChange.length)];
 }
