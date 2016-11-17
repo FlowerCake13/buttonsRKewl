@@ -31,3 +31,8 @@ body{
 #yourName{
 	font-size: 50px;
 }
+
+#picCount{
+	height: 200px;
+	width: 250px;
+}
