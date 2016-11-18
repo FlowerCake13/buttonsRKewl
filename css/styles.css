@@ -42,5 +42,6 @@ body{
 	margin-top: 50px;
 	height: 250px;
 	width: 350px;
+	word-wrap: break-word;
 	background-color: powderblue; 
 }
