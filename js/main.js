@@ -11,18 +11,19 @@ var pId = document.getElementById('yourName');
 }
 	var countPic = 0;
 function picChange() {
-	var picArray = ['pic/heart.jpg', 'pic/tiedie.jpg', 'pic/watermelon.jpg'
-	,'pic/bunny.jpg','pic/cactus.jpg', 'pic/cherry.jpg', 'pic/minion.jpg'
-	,'pic/orangefish.jpg','pic/wpc.jpg'];
+	var picArray = ['pic/heart.jpg','pic/tiedie.jpg','pic/watermelon.jpg','pic/bunny.jpg','pic/cactus.jpg'
+			, 'pic/cherry.jpg','pic/minion.jpg','pic/orangefish.jpg','pic/wpc.jpg','pic/starbucks.jpg'
+			,'pic/cookiem.jpg','pic/snowman.jpg','pic/emoji.jpg','pic/bugers.jpg','pic/wonderland.jpg'
+			,'pic/mnm.jpg','pic/hearcake.jpg'];
 	console.log(picArray.length);
 	var changePic = document.getElementById('picCount');
 	countPic++;
-	if (countPic === 9) {
+	if (countPic === 17) {
 		countPic = 0;
 	}
 	/*for (var i = 0; i < picArray.length; i++){
 		countPic++;
-		if (countPic === 9) {
+		if (countPic === 17) {
 			countPic = 0;
 		}
 		console.log(countPic);
